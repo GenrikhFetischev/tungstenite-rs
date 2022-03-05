@@ -25,6 +25,7 @@ pub mod protocol;
 #[cfg(feature = "handshake")]
 mod server;
 pub mod stream;
+pub mod extensions;
 #[cfg(any(feature = "native-tls", feature = "__rustls-tls"))]
 mod tls;
 pub mod util;
